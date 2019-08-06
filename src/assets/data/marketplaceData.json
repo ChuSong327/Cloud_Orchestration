@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "app_name": "Snowflake",
+    "app_description": "Snowflake Computing is a cloud-based data-warehousing startup. It was publicly launched by Bob Muglia in 2014 after two years in stealth mode.",
+    "integration_count": 0,
+    "featured": 1,
+    "category": "Database",
+    "logo": "nologo"
+  },
+  {
+    "id": 2,
+    "app_name": "Slack",
+    "app_description": "Slack is an American cloud-based set of proprietary team collaboration tools and services, founded by Stewart Butterfield. Slack began as an internal tool used by his company, Tiny Speck, in the development of Glitch, a now defunct online game.",
+    "integration_count": 3,
+    "featured": 0,
+    "category": "Other",
+    "logo": "slack"
+  },
+  {
+    "id": 3,
+    "app_name": "Tableau",
+    "app_description": "Tableau Software is a software company headquartered in Seattle, Washington, United States that produces interactive data visualization products focused on business intelligence.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Analytics",
+    "logo": "tableau"
+  },
+  {
+    "id": 4,
+    "app_name": "Marketo",
+    "app_description": "DescriptionMarketo, Inc. is a software company that provides Marketing Automation software focused on account-based marketing, including email, mobile, social, digital ads, web management, and analytics. ",
+    "integration_count": 2,
+    "featured": 1,
+    "category": "Other",
+    "logo": "nologo"
+  },
+  {
+    "id": 5,
+    "app_name": "Amazon S3",
+    "app_description": "Amazon S3 or Amazon Simple Storage Service is a \"simple storage service\" offered by Amazon Web Services that provides object storage through a web service interface. Amazon S3 uses the same scalable storage infrastructure that Amazon.com uses to run its global e-commerce network.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Storage",
+    "logo": "aws-s3"
+  },
+  {
+    "id": 6,
+    "app_name": "Github",
+    "app_description": "GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "github"
+  },
+  {
+    "id": 7,
+    "app_name": "Dropbox",
+    "app_description": "Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered in San Francisco, California, that offers cloud storage, file synchronization, personal cloud, and client software.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Storage",
+    "logo": "dropbox"
+  },
+  {
+    "id": 8,
+    "app_name": "Salesforce",
+    "app_description": "Salesforce.com, Inc. is an American cloud-based software company headquartered in San Francisco, California.",
+    "integration_count": 0,
+    "featured": 1,
+    "category": "CRM",
+    "logo": "salesforce"
+  },
+  {
+    "id": 9,
+    "app_name": "Qubole",
+    "app_description": "Qubole provides a cloud-native data platform for analytics and machine learning that quickly activates large quantities of data for all users while lowering costs.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "qubole"
+  },
+  {
+    "id": 10,
+    "app_name": "Google Drive",
+    "app_description": "Google Drive is a file storage and synchronization service developed by Google. Launched on April 24, 2012, Google Drive allows users to store files on their servers, synchronize files across devices, and share files.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Storage",
+    "logo": "google-drive"
+  },
+  {
+    "id": 11,
+    "app_name": "Zoom",
+    "app_description": "Zoom Video Communications is a company headquartered in San Jose, California that provides remote conferencing services using cloud computing. Zoom offers communications software that combines video conferencing, online meetings, chat, and mobile collaboration. ",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "zoom"
+  },
+  {
+    "id": 12,
+    "app_name": "BMC Software",
+    "app_description": "BMC Software, Inc. is an American technology company. BMC produces software and services that assist businesses in moving to digital operations. ",
+    "integration_count": 0,
+    "featured": 1,
+    "category": "Other",
+    "logo": "nologo"
+  },
+  {
+    "id": 13,
+    "app_name": "Apache Kafka",
+    "app_description": "Apache Kafka is an open-source stream-processing software platform developed by Linkedin and donated to the Apache Software Foundation, written in Scala and Java",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "kafka"
+  },
+  {
+    "id": 14,
+    "app_name": "Jenkins",
+    "app_description": "Jenkins is an open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery. ",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "jenkins"
+  },
+  {
+    "id": 15,
+    "app_name": "Docker",
+    "app_description": "Docker is a computer program that performs operating-system-level virtualization, also known as \"containerization\".",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "docker"
+  },
+  {
+    "id": 16,
+    "app_name": "CA Technologies",
+    "app_description": "CA Technologies, formerly known as Computer Associates International, Inc. and CA, Inc., is a multinational corporation headquartered in New York City. ",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "cat"
+  },
+  {
+    "id": 17,
+    "app_name": "Netsuite",
+    "app_description": "NetSuite Inc. is an American cloud computing company founded in 1998 with headquarters in San Mateo, California, that provides software services to help manage business finances, operations, and customer relations.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "nologo"
+  },
+  {
+    "id": 18,
+    "app_name": "PagerDuty",
+    "app_description": "PagerDuty is a cloud computing company that produces a SaaS incident response platform for IT departments. ",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Database",
+    "logo": "nologo"
+  },
+  {
+    "id": 19,
+    "app_name": "VictorOps",
+    "app_description": "Our incident management software aligns log management, monitoring, chat tools, and more, for a single-pane-of-glass into system health.",
+    "integration_count": 0,
+    "featured": 0,
+    "category": "Other",
+    "logo": "victorops"
+  }
+]

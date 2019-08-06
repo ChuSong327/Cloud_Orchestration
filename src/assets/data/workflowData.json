@@ -1,0 +1,110 @@
+[
+  {
+    "slno": 1,
+    "name": "Log Processing WF",
+    "state": "success",
+    "description": "workflow for log processing",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 2,
+    "name": "Report-Export",
+    "state": "success",
+    "description": "workflow for log exporting report",
+    "totalJobs": 5,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 3,
+    "name": "Fraud-Engine",
+    "state": "success",
+    "description": "workflow for fraud-engine process",
+    "totalJobs": 3,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 4,
+    "name": "Demo-Workflow",
+    "state": "success",
+    "description": "workflow for demo",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 5,
+    "name": "Pricing_Model",
+    "state": "running",
+    "description": "workflow for pricing models",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 6,
+    "name": "Machine_Learning",
+    "state": "running",
+    "description": "workflow for ml algorithms",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 7,
+    "name": "Marketing_Report",
+    "state": "running",
+    "description": "workflow for generating market reports",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 8,
+    "name": "Financial_Rpts",
+    "state": "running",
+    "description": "workflow for financial reports",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 9,
+    "name": "Cluster-Shutdown",
+    "state": "waiting",
+    "description": "workflow for shutdown of clusters",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 10,
+    "name": "Vendor_Export",
+    "state": "waiting",
+    "description": "workflow for vendor export",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 11,
+    "name": "QA-Auto-Tests",
+    "state": "failed",
+    "description": "workflow for QA Automation",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  },
+  {
+    "slno": 12,
+    "name": "POC_MemSQL",
+    "state": "other",
+    "description": "workflow for POC for MEM SQL",
+    "totalJobs": 19,
+    "startTime": "01/01/2019 11:30:00",
+    "eta": "12:00"
+  }  
+]

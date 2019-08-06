@@ -1,0 +1,39 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # variables
+      - ARTIFACT=watershed
+      - ARTIFACT_TYPE=.jar
+      - TAG_NAME=$REPOSITORY_URI:$ARTIFACT
+      - REPOSITORY_URI=443334161685.dkr.ecr.us-west-2.amazonaws.com/poc-dev-ecr-$ARTIFACT
+      - echo $AWS_DEFAULT_REGION 
+      - echo $ARTIFACT
+      - echo $ARTIFACT_TYPE
+      - echo $REPOSITORY_URI
+  pre_build:
+    commands: 
+      - ls -lR
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=${COMMIT_HASH:=latest}
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Building the Docker image...          
+      - docker build -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI:latest
+      - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - echo Writing image definitions file...
+      - printf '[{"name":"poc-dev-ecs-container-%s","imageUri":"%s"}]' $ARTIFACT $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - cat imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json
